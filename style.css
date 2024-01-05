@@ -1,0 +1,194 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Lobster', sans-serif; */
+    margin: 0;
+}
+header{
+        background-image: url(img/banner/banner3.png);
+        height: 750px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}   
+.header-container{
+        color:black;
+        text-align: right;
+        padding:  180px 200px ;
+        max-width: 500px;
+        margin-left: 600px;
+}
+.header-container .header-text{
+        font-size: 55px;
+        margin-bottom: 20px;
+      
+
+}
+.header-container .header-dis{
+        font-size: 14px;
+        margin-bottom: 30px;
+}
+.header-container .header-btn{
+        padding: 15px  25px;
+        border: none;
+        border-radius: 10px;
+        background-color: skyblue;
+        font-weight: bold;
+        color: darkgreen;
+        font-family: 'Lobster', sans-serif; 
+}
+.failSec{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* margin: 70px 150px; */
+                padding: 70px 200px;
+                
+
+}
+.failSec .failCon h2{
+
+                font-size: 45px;
+                margin-bottom: 20px;
+
+
+}
+.failSec .failCon p{
+           margin-bottom: 30px; 
+           font-weight: 300; 
+           font-size: 14px;   
+}
+
+.failSec .failCon ul li{
+
+                list-style: url(img/icons/check.png);
+                margin-bottom: 10px;
+}
+
+.sec-icon{
+
+                /* display: flex; */
+}
+
+.icon{
+
+                display: flex;
+                justify-content: space-evenly;
+
+                padding: 60px;
+}
+.sec-icon .leo{
+
+        text-align: center;
+        
+}
+.sec-icon .leo img{
+
+        margin-bottom: 10px;
+}
+.sec-icon .leo h4{
+
+        font-size: 20px;
+        margin-bottom: 10px;
+}
+.sec-icon .leo p{
+
+        color: darkblue;
+        font-weight: bold;
+}
+.hard-sec{
+
+                width: 1140px;
+                margin: 0 auto;
+                height: 300px;
+}
+.hard-sec .hard-div{
+
+        background-image:url(img/gradient1.png),url(img/watch.png);
+        /* height: 500px; */
+        background-repeat: no-repeat;
+        padding: 100px;
+        border-radius: 10px;
+
+}
+
+.hard-sec .hard-div h1{
+
+                font-size: 35px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color: orange;
+}
+.hard-sec .hard-div button{
+
+        border-radius: 8%;
+        border: none;
+        padding: 16px 35px ;
+        font-weight: bold;
+        font-size: 15px;
+        color: blue;
+}
+
+footer{
+
+        display: flex;
+        background-color: #151414;
+        margin-top: 200px;
+        padding: 150px 200px;
+}
+.footerdiv ,.head ,.footersub ,.ep{
+        
+        color: yellowgreen;
+        margin-bottom: 20px;
+
+}
+.footerdiv .head{
+
+        font-size: 40px;
+        font-weight: 700;
+}
+
+.footerdiv .footersub{
+
+        font-size: 20px;
+}
+.footerdiv .ep{
+        font-size: 15px;
+        font-weight: 400;
+
+}
+.social-icon img{
+
+        margin-right: 20px;
+        
+
+}
+.Contact{
+
+        color: whitesmoke;
+        margin-left: 80px;
+}
+.Contact h2{
+
+        font-size: 40px;
+        color: blue;
+        margin-bottom: 30px;
+}
+.Contact input{
+        border: none;
+        border-radius: 5px;
+        padding: 20px 50px;
+        background-color: black;
+        color: whitesmoke;
+        display: block;
+        border-style: groove;
+}
+
+.Contact button{
+
+        border: none;
+        border-radius: 5px;
+        padding: 15px 25px;
+        margin-top: 35px;
+        font-size: 15px;
+        font-weight: 700;
+
+}
